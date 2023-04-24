@@ -1,7 +1,7 @@
 ## 🛍️ Segmentation of e-commerce customers
 OPENCLASSROOMS - Data Scientist - Project 5
 
-This repository contains notebooks for a machine learning project that segments customers of the Olist marketplace based their orders history. 
+This repository contains notebooks for a machine learning project that segments customers of the Olist marketplace based on their orders history. 
 
 ### 📊 Data
 
