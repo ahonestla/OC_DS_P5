@@ -1,18 +1,26 @@
-# Segmentez des clients d'un site e-commerce
-OPENCLASSROOMS - Formation Data Scientist - Projet 5
+## 🛍️ Segmentation of e-commerce customers
+OPENCLASSROOMS - Data Scientist - Project 5
 
-Vous êtes consultant pour Olist, une entreprise brésilienne qui propose une solution de vente sur les marketplaces en ligne.
+This repository contains notebooks for a machine learning project that segments customers of the Olist marketplace based their orders history. 
 
-![image](https://user-images.githubusercontent.com/111356254/209665928-a146941f-3d1e-4fb4-9cee-ab979383146c.png)
+### 📊 Data
 
-**Olist** souhaite que vous fournissiez à ses équipes d'e-commerce une **segmentation des clients** qu’elles pourront utiliser au quotidien pour leurs campagnes de communication.
+The dataset used for this project is the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), which includes information of 100k orders from 2016 to 2018 in Brazil.
 
-Votre objectif est de **comprendre les différents types d’utilisateurs** grâce à leur comportement et à leurs données personnelles.
+### 📁 Files
 
-Vous devrez **fournir à l’équipe marketing une description actionable** de votre segmentation et de sa logique sous-jacente pour une utilisation optimale, ainsi qu’une **proposition de contrat de maintenance** basée sur une analyse de la stabilité des segments au cours du temps.
+- *barbier_victor_1_notebook_exploration_102022.ipynb* : Exploratory data analysis of the customers informations
+- *barbier_victor_2_notebook_essais_102022.ipynb* : Machine learning models for the clustering of the customers
+- *barbier_victor_3_notebook_simulation_102022.ipynb* : Analysis of the best model performance through time
+- *barbier_victor_4_presentation_102022.pdf*: Final presentation of the project
 
-## Les données
-Pour cette mission, Olist vous fournit une base de données anonymisée comportant des informations sur l’historique de commandes, les produits achetés, les commentaires de satisfaction, et la localisation des clients depuis janvier 2017.
+### 🛠️ Tools
 
-## Votre mission
-Votre mission est d’aider les équipes d’Olist à comprendre les différents types d'utilisateurs. Vous utiliserez donc des méthodes non supervisées pour regrouper des clients de profils similaires. Ces catégories pourront être utilisées par l’équipe Marketing pour mieux communiquer.
+- Python 3.x
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib / Seaborn
+- Scikit-learn : PCA, KMeans, t-SNE
+- HDBSCAN
+- YellowBrick
